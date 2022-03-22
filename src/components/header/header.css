@@ -1,0 +1,131 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 34px 12px 34px;
+}
+.logo {
+  width: 73px;
+  height: 40px;
+}
+.left_side {
+  display: flex;
+  align-items: center;
+}
+.right_side {
+  display: flex;
+  align-items: center;
+}
+.navigation_list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.action {
+  padding-right: 30px;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.navigation_list__item {
+  padding-left: 42px;
+  font-size: 16px;
+}
+.navigation_list__link {
+  color: #222222;
+  text-decoration: none;
+}
+.user_info {
+  margin-left: 18px;
+}
+.user_info__upper {
+  font-size: 16px;
+}
+.user_info__lower {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 1361px) {
+  .burger,
+  .header_search {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .burger,
+  .header_search,
+  #heart,
+  #alt {
+    display: none;
+  }
+  .action {
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .user_info {
+    display: none;
+  }
+  .logo {
+    height: 35px;
+  }
+}
+@media only screen and (max-width: 1017px) {
+  .header_nav,
+  .logo {
+    display: none;
+  }
+  .header_search {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .header_input {
+    width: 510px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 14px;
+    border: 1px solid #e6ecf5;
+    box-sizing: border-box;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  .header_search__icon {
+    background-color: #0072db;
+    border-radius: 0 4px 4px 0;
+    padding: 9.25px;
+  }
+  .burger {
+    display: block;
+  }
+  .action {
+    padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .header_search {
+    margin-left: 40px;
+  }
+  .header_input {
+    max-width: 310px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .header_input {
+    max-width: 210px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .header_input {
+    max-width: 150px;
+  }
+}

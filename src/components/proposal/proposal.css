@@ -1,0 +1,96 @@
+.proposal {
+  height: 342px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.price {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+.price span {
+  color: #222222;
+  margin-right: 10px;
+}
+.sale_price {
+  color: #0072db;
+}
+.like_state {
+  position: absolute;
+  right: 0;
+  bottom: 22%;
+}
+.proposal_description {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+.proposal_place {
+  max-width: 350px;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.proposal_img {
+  margin-bottom: 20px;
+}
+.proposal_size {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 870px) {
+  .proposal {
+    height: 342px;
+    margin-bottom: 35px;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .proposal_description {
+    font-size: 18px;
+  }
+  .proposal_place {
+    max-width: 300px;
+  }
+  .proposal_img {
+    width: 300px;
+  }
+  .proposal_place,
+  .proposal_size {
+    font-size: 12px;
+  }
+  .like_state {
+    bottom: 36%;
+  }
+}
+@media only screen and (max-width: 673px) {
+  .proposal {
+    height: 330px;
+  }
+  .price {
+    font-size: 13px;
+  }
+  .proposal_description {
+    font-size: 15px;
+  }
+  .proposal_place {
+    max-width: 225px;
+  }
+  .proposal_img {
+    width: 225px;
+  }
+  .proposal_place,
+  .proposal_size {
+    font-size: 11px;
+  }
+  .like_state {
+    bottom: 47%;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .proposal {
+    height: 240px;
+  }
+  .like_state {
+    bottom: 28%;
+  }
+}

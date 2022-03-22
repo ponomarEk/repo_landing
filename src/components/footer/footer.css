@@ -1,0 +1,138 @@
+.footer {
+  background: #f4f4f4;
+  padding-bottom: 19px;
+  padding-top: 24px;
+}
+.footer_container {
+  width: 1216px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo_footer {
+  height: 57px;
+}
+.nav_list {
+  display: flex;
+  padding-bottom: 20px;
+  width: 100%;
+  justify-content: flex-end;
+}
+.nav_list__item {
+  margin-right: 32px;
+}
+.nav_list__item:last-child {
+  font-weight: 500;
+  margin-right: 0;
+}
+.nav_list__link {
+  text-decoration: none;
+  color: #222222;
+  font-size: 14px;
+}
+.reference_info {
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.reference_link {
+  color: #222222;
+}
+.reference_text {
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 1361px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .mobile_nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .mobile_nav {
+    display: none;
+  }
+  .footer_container {
+    width: 1070px;
+  }
+  .logo_footer {
+    height: 47px;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .footer_container {
+    width: 920px;
+  }
+}
+@media only screen and (max-width: 1017px) {
+  .footer_container {
+    width: 810px;
+  }
+  .logo_footer {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .footer_container {
+    width: 700px;
+  }
+  .logo_footer {
+    width: 60px;
+  }
+  .nav_list__link {
+    font-size: 12px;
+  }
+  .reference_text {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .logo_footer,
+  .footer_info {
+    display: none;
+  }
+  .footer_container {
+    max-width: 620px;
+    align-items: center;
+  }
+  .mobile_nav {
+    min-width: 620px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile_nav__item {
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #575757;
+  }
+  .mobile_nav__item img {
+    margin-bottom: 7px;
+  }
+  .mobile_nav__item a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 16px;
+  }
+  .mobile_nav__item:first-child a {
+    color: #0072db;
+  }
+}
+
+@media only screen and (max-width: 673px) {
+  .footer_container {
+    max-width: 480px;
+  }
+  .mobile_nav {
+    min-width: 480px;
+  }
+  .mobile_nav__item a {
+    font-size: 14px;
+  }
+}
