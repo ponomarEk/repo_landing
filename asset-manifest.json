@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/home_landing/static/css/main.502d9b7d.css",
+    "main.js": "/home_landing/static/js/main.e5a766d5.js",
+    "static/media/village.png": "/home_landing/static/media/village.04efa10f195449143b07.png",
+    "index.html": "/home_landing/index.html",
+    "main.502d9b7d.css.map": "/home_landing/static/css/main.502d9b7d.css.map",
+    "main.e5a766d5.js.map": "/home_landing/static/js/main.e5a766d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502d9b7d.css",
+    "static/js/main.e5a766d5.js"
+  ]
+}
